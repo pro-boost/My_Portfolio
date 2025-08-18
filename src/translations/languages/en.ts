@@ -64,24 +64,30 @@ export const en: TranslationType = {
       live: "Live Demo",
       code: "Code",
     },
-    items: {
-      pokemon: {
-        title: "Memory Card Game (Pokémon)",
-        description: "A memory card game where players match Pokémon cards. Includes multiple levels and game-over conditions. Built with React and responsive design for all screen sizes.",
-      },
-      shopping: {
-        title: "Shopping Cart Web App",
-        description: "A full e-commerce app built with React. Users can browse products, manage their cart, and complete purchases. Features API integration and responsive design.",
-      },
-      resume: {
-        title: "Responsive Resume Website",
-        description: "A personal resume website showcasing education, experience, and skills. Built with HTML, CSS, and JavaScript, featuring light and dark mode themes.",
-      },
-      military: {
-        title: "Military Equipment Shop",
-        description: "An e-commerce web app built with React. Users can explore products, manage their cart, and place orders. Includes API integration and a responsive layout.",
-      },
-    },
+items: {
+  cinescope: {
+    title: "CineScope",
+    description:
+      "A modern, responsive movie discovery application. Users can search for movies, browse by genres, manage favorites, and discover trending content.",
+  },
+  strikeGear: {
+    title: "Strike Gear",
+    description:
+      "A modern e-commerce platform for outdoor enthusiasts. Features responsive design, component-based architecture, dark/light mode, and optimized performance.",
+  },
+  megatech: {
+    title: "MegaTech",
+    description:
+    "A digital platform for technical training, offering a smooth and engaging learning experience with dark/light mode, multilingual support, and a responsive design.",
+},
+  panoViewer: {
+    title: "Advanced Panorama Viewer",
+    description:
+      "An interactive panorama viewer designed for immersive 360° experiences with seamless navigation between connected scenes. (Coming soon)",
+  },
+}
+
+
   },
 
   testimonials: {

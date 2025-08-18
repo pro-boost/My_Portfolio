@@ -59,24 +59,25 @@ export interface TranslationType {
       live: string;
       code: string;
     };
-    items: {
-      pokemon: {
-        title: string;
-        description: string;
-      };
-      shopping: {
-        title: string;
-        description: string;
-      };
-      resume: {
-        title: string;
-        description: string;
-      };
-      military: {
-        title: string;
-        description: string;
-      };
-    };
+ items: {
+  cinescope: {
+    title: string;
+    description: string;
+  };
+  strikeGear: {
+    title: string;
+    description: string;
+  };
+  megatech: {
+    title: string;
+    description: string;
+  };
+  panoViewer: {
+    title: string;
+    description: string;
+  };
+};
+
   };
   testimonials: {
     title: string;

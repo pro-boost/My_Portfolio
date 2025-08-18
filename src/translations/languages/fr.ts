@@ -63,24 +63,30 @@ export const fr: TranslationType = {
       live: "Démo en ligne",
       code: "Code",
     },
-    items: {
-      pokemon: {
-        title: "Jeu de mémoire (Pokémon)",
-        description: "Un jeu de mémoire où les joueurs associent des cartes Pokémon. Comprend plusieurs niveaux et conditions de fin. Construit avec React et un design responsive pour tous les écrans.",
-      },
-      shopping: {
-        title: "Application Panier d'Achat",
-        description: "Une application e-commerce développée avec React. Les utilisateurs peuvent parcourir les produits, les ajouter au panier et passer commande. Intègre une API et un design responsive.",
-      },
-      resume: {
-        title: "Site Web de CV Responsive",
-        description: "Un site web de CV personnalisé présentant un profil professionnel, la formation, l'expérience et les compétences. Construit avec HTML, CSS et JavaScript, avec thèmes clair et sombre.",
-      },
-      military: {
-        title: "Boutique d'Équipements Militaires",
-        description: "Une application e-commerce développée avec React. Les utilisateurs peuvent parcourir les produits, les ajouter au panier et passer commande. Intègre une API et un design responsive.",
-      },
-    },
+items: {
+  cinescope: {
+    title: "CineScope",
+    description:
+      "Une application moderne et responsive de découverte de films. Les utilisateurs peuvent rechercher des films, parcourir par genres, gérer leurs favoris et découvrir les contenus tendances.",
+  },
+  strikeGear: {
+    title: "Strike Gear",
+    description:
+      "Une plateforme e-commerce moderne pour les passionnés d'activités en plein air. Propose un design responsive, architecture basée sur les composants, mode sombre/clair et performances optimisées.",
+  },
+  megatech: {
+    title: "MegaTech",
+     description:
+    "Une plateforme numérique pour la formation technique, offrant une expérience d'apprentissage fluide et engageante avec mode sombre/clair, support multilingue et design responsive.",
+},
+  panoViewer: {
+    title: "Visionneuse Panorama Avancée",
+    description:
+      "Une visionneuse panoramique interactive conçue pour des expériences immersives à 360° avec navigation fluide entre les scènes connectées. (Bientôt disponible)",
+  },
+}
+
+
   },
 
   testimonials: {
