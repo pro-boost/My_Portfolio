@@ -2,7 +2,10 @@
 
 ## 📘 Project Overview
 
-**Glow Folio Darklight Magic** is a modern, responsive portfolio template designed to seamlessly adapt to both light and dark themes. Built with cutting-edge technologies, it offers a sleek and customizable interface suitable for developers, designers, and creatives aiming to showcase their work elegantly.
+**Glow Folio Darklight Magic** is my personal, private portfolio showcasing my projects and skills.  
+It is **not intended for public use, reuse, or distribution**.
+
+This project demonstrates my expertise in building responsive, dark/light theme-enabled web applications using modern frontend technologies.
 
 ## 🚀 Features
 
@@ -10,6 +13,7 @@
 - **Responsive Design**: Ensures optimal viewing experience across devices.
 - **Component-Based Architecture**: Facilitates easy customization and scalability.
 - **Fast Performance**: Leveraging Vite for rapid development and optimized builds.
+- **Translation Support**: Easily switch between multiple languages.
 
 ## 🧱 Project Structure
 
@@ -40,67 +44,12 @@ glow-folio-darklight-magic/
 
 ## 🛠 Installation & Setup
 
-### Prerequisites
-
-Ensure you have the following installed:
-
-- [Node.js](https://nodejs.org/) (v16 or higher)
-- [Bun](https://bun.sh/) (if using Bun as the package manager)
-
-### Steps
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/pro-boost/glow-folio-darklight-magic.git
-   cd glow-folio-darklight-magic
-   ```
-
-2. **Install Dependencies**
-
-   Using Bun:
-
-   ```bash
-   bun install
-   ```
-
-   Or using npm:
-
-   ```bash
-   npm install
-   ```
-
-3. **Start the Development Server**
-
-   Using Bun:
-
-   ```bash
-   bun run dev
-   ```
-
-   Or using npm:
-
-   ```bash
-   npm run dev
-   ```
-
-4. **Build for Production**
-
-   Using Bun:
-
-   ```bash
-   bun run build
-   ```
-
-   Or using npm:
-
-   ```bash
-   npm run build
-   ```
+> ⚠️ **For personal use only. Do not share or deploy publicly.**
 
 ## 🌐 Deployment
 
-After building the project, the static files will be located in the `dist/` directory. You can deploy these files to any static hosting service like [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/), or [GitHub Pages](https://pages.github.com/).
+This project is private and should not be deployed publicly.
+If you want to run it locally, use the development server or preview build.
 
 ## 📁 Key Directories Explained
 
@@ -114,11 +63,10 @@ After building the project, the static files will be located in the `dist/` dire
 
 ## 📄 License
 
-This project is open-source and available under the [MIT License](LICENSE).
+© 2025 Mohamed-B. All rights reserved.
 
-## 🤝 Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
+This project is strictly for personal use only.
+You may not copy, modify, distribute, or use any part of it without explicit permission.
 
 ---
 

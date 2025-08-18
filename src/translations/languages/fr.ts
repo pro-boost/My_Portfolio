@@ -152,6 +152,6 @@ items: {
 
   footer: {
     tagline: "Créer des expériences numériques inspirantes.",
-    copyright: "© {{year}} Mohamed B. — Licence MIT",
+    copyright: "© {{year}} Mohamed B. — Tous droits réservés",
   },
 };
