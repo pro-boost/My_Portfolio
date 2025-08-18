@@ -45,6 +45,7 @@ export const fr: TranslationType = {
     categories: {
       all: "Tout",
       frontend: "Front-End",
+      backend: "Back-End",
       design: "Design",
       tools: "Outils",
     },

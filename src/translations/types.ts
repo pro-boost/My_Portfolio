@@ -26,6 +26,7 @@ export interface TranslationType {
         title: string;
         description: string;
       };
+      
       design: {
         title: string;
         description: string;
@@ -42,6 +43,7 @@ export interface TranslationType {
     categories: {
       all: string;
       frontend: string;
+      backend:string;
       design: string;
       tools: string;
     };
