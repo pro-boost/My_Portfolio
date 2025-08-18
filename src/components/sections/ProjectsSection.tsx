@@ -87,6 +87,7 @@ export default function ProjectsSection() {
   const [projects, setProjects] = useState<Project[]>(defaultProjects);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
   const isMobile = useIsMobile();
 
   useEffect(() => {
@@ -121,11 +122,13 @@ export default function ProjectsSection() {
     setTimeout(() => setIsAnimating(false), 600);
   }, [isAnimating, getProjectIndex]);
 
-  // Auto-rotate every 5 seconds
+  // Auto-rotate every 5 seconds (pause when hovering)
   useEffect(() => {
+    if (isPaused) return;
+    
     const interval = setInterval(nextProject, 5000);
     return () => clearInterval(interval);
-  }, [nextProject]);
+  }, [nextProject, isPaused]);
 
   const getProjectClass = (index: number) => {
     const position = (index - currentIndex + projects.length) % projects.length;
@@ -255,7 +258,11 @@ export default function ProjectsSection() {
             </button>
 
             {/* Carousel Container */}
-            <div className="relative h-[500px] md:h-[600px] overflow-visible perspective-1000">
+            <div 
+              className="relative h-[500px] md:h-[600px] overflow-visible perspective-1000"
+              onMouseEnter={() => setIsPaused(true)}
+              onMouseLeave={() => setIsPaused(false)}
+            >
               <div className="carousel-container">
                 {projects.map((project, index) => (
                   <div
