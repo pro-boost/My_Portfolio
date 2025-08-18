@@ -1,6 +1,6 @@
 export type Language = "en" | "fr";
 
-export type TranslationType = {
+export interface TranslationType {
   nav: {
     home: string;
     about: string;
@@ -123,14 +123,20 @@ export type TranslationType = {
       send: string;
       sending: string;
     };
-    messages: {
-      success: string;
-      error: string;
-      autoReplyError: string;
+    toast: {
+      success: {
+        title: string;
+        description: string;
+      };
+      error: {
+        title: string;
+        description: string;
+        autoReply: string;
+      };
     };
   };
   footer: {
     tagline: string;
     copyright: string;
   };
-}; 
+}

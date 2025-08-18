@@ -1,8 +1,8 @@
 import { ArrowDown } from "lucide-react";
 import { Button } from "../ui/button";
 import { useTranslation } from "react-i18next";
-import { getTranslation } from "../../i18n/translations";
-import { Language } from "../../i18n/translations/types";
+import { getTranslation } from "../../translations";
+import { Language } from "../../translations/types";
 
 export default function HeroSection() {
   const { t } = useTranslation();

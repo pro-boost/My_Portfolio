@@ -8,13 +8,13 @@ export const fr: TranslationType = {
     projects: "Projets",
     testimonials: "Témoignages",
     contact: "Contact",
-    menuToggle: "Menu",
+    menuToggle: "Basculer le menu",
   },
 
   hero: {
     greeting: "Bonjour, je suis",
     role: "Développeur Front-End",
-    description: "Je crée des sites et applications web performants et attrayants à l'aide de technologies modernes, en mettant l'accent sur l'expérience utilisateur.",
+    description: "Je crée des sites et des applications web performants et attractifs en utilisant des technologies modernes, en mettant l'accent sur l'expérience utilisateur.",
     viewWork: "Voir mes projets",
     contactMe: "Me contacter",
   },
@@ -22,7 +22,7 @@ export const fr: TranslationType = {
   about: {
     title: "À propos de moi",
     subtitle: "Développeur Front-End axé sur l'UI/UX",
-    description: "Je suis un développeur front-end passionné, spécialisé dans la création d'interfaces web soignées, accessibles et prêtes pour la production. Grâce à mon expertise en React et TypeScript, je développe des interfaces utilisateur complexes, performantes et faciles à maintenir. Mon approche allie excellence technique, compréhension approfondie des besoins utilisateurs et respect des principes de design modernes. Je m'engage à offrir des expériences intuitives et accessibles, tout en restant à jour sur les technologies web et tendances du design.",
+    description: "Je suis un développeur front-end passionné, spécialisé dans la création d'interfaces web soignées, accessibles et prêtes à être mises en production. Grâce à mon expertise en React et TypeScript, je développe des interfaces utilisateur complexes, performantes et faciles à maintenir. Mon approche allie excellence technique, compréhension approfondie des besoins utilisateurs et respect des principes de conception modernes. Je m'engage à offrir des expériences intuitives et accessibles, tout en restant à la pointe des technologies web et des tendances du design.",
     services: {
       frontend: {
         title: "Développement Front-End",
@@ -30,7 +30,7 @@ export const fr: TranslationType = {
       },
       design: {
         title: "Conception UI/UX",
-        description: "Je conçois des interfaces utilisateur intuitives et esthétiques qui respectent les principes modernes de design et les normes d'accessibilité, garantissant une expérience fluide.",
+        description: "Je conçois des interfaces utilisateur intuitives et esthétiques qui respectent les principes modernes de conception et les normes d'accessibilité, garantissant une expérience fluide.",
       },
       performance: {
         title: "Performance Web",
@@ -69,7 +69,7 @@ export const fr: TranslationType = {
       },
       shopping: {
         title: "Application Panier d'Achat",
-        description: "Une application e-commerce développée avec React. Les utilisateurs peuvent parcourir les produits, les ajouter au panier et passer à l'achat. Intègre une API et un design responsive.",
+        description: "Une application e-commerce développée avec React. Les utilisateurs peuvent parcourir les produits, les ajouter au panier et passer commande. Intègre une API et un design responsive.",
       },
       resume: {
         title: "Site Web de CV Responsive",
@@ -77,7 +77,7 @@ export const fr: TranslationType = {
       },
       military: {
         title: "Boutique d'Équipements Militaires",
-        description: "Une application e-commerce développée avec React. Les utilisateurs peuvent parcourir les produits, les ajouter au panier et passer à l'achat. Intègre une API et un design responsive.",
+        description: "Une application e-commerce développée avec React. Les utilisateurs peuvent parcourir les produits, les ajouter au panier et passer commande. Intègre une API et un design responsive.",
       },
     },
   },
@@ -112,19 +112,13 @@ export const fr: TranslationType = {
     description: "Vous avez un projet en tête ou souhaitez simplement échanger ? N'hésitez pas à m'écrire via le formulaire ci-dessous.",
     info: {
       title: "Coordonnées",
-      email: {
-        label: "Email"
-      },
-      phone: {
-        label: "Téléphone"
-      },
-      social: {
-        label: "Réseaux sociaux"
-      }
+      email: { label: "Email" },
+      phone: { label: "Téléphone" },
+      social: { label: "Réseaux sociaux" },
     },
     availability: {
       title: "Disponibilité actuelle",
-      description: "Je suis actuellement disponible pour des missions freelance et ouvert à de nouvelles opportunités. Je réponds généralement sous 24 heures.",
+      description: "Je suis actuellement disponible pour des missions freelance et ouvert à de nouvelles opportunités. Je réponds généralement dans les 24 heures.",
     },
     form: {
       name: "Votre nom",
@@ -136,10 +130,16 @@ export const fr: TranslationType = {
       send: "Envoyer le message",
       sending: "Envoi en cours...",
     },
-    messages: {
-      success: "Message envoyé ! Merci pour votre prise de contact. Je vous répondrai rapidement.",
-      error: "Une erreur est survenue lors de l'envoi. Veuillez réessayer plus tard.",
-      autoReplyError: "Une erreur est survenue lors de l'envoi de la réponse automatique. Veuillez réessayer plus tard.",
+    toast: {
+      success: {
+        title: "Message Envoyé !",
+        description: "Merci pour votre prise de contact. Je vous répondrai rapidement.",
+      },
+      error: {
+        title: "Erreur",
+        description: "Une erreur est survenue lors de l'envoi. Veuillez réessayer plus tard.",
+        autoReply: "Une erreur est survenue lors de l'envoi de la réponse automatique. Veuillez réessayer plus tard.",
+      },
     },
   },
 
@@ -147,4 +147,4 @@ export const fr: TranslationType = {
     tagline: "Créer des expériences numériques inspirantes.",
     copyright: "© {{year}} Mohamed B. — Licence MIT",
   },
-}; 
+};

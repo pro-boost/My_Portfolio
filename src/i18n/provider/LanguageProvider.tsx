@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import { Language } from "../translations/types";
+import { Language } from "../../translations/types";
 import i18n from "i18next";
 
 type LanguageProviderProps = {

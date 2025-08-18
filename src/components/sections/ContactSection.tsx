@@ -69,6 +69,7 @@ export default function ContactSection() {
                 title: t("contact.toast.success.title"),
                 description: t("contact.toast.success.description"),
               });
+
               setFormData({ name: "", email: "", message: "" });
             })
             .catch((error) => {

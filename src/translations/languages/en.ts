@@ -8,33 +8,33 @@ export const en: TranslationType = {
     projects: "Projects",
     testimonials: "Testimonials",
     contact: "Contact",
-    menuToggle: "Menu",
+    menuToggle: "Toggle menu",
   },
 
   hero: {
-    greeting: "Hi there, I'm",
+    greeting: "Hi, I'm",
     role: "Front-End Developer",
-    description: "I create stunning, performant websites and web applications with modern technologies and a focus on user experience.",
+    description: "I build high-performing, visually appealing websites and web apps using modern technologies, with a strong focus on user experience.",
     viewWork: "View My Work",
     contactMe: "Contact Me",
   },
 
   about: {
     title: "About Me",
-    subtitle: "Front-End Developer with a Focus on UI/UX",
-    description: "I'm a passionate front-end developer specializing in creating polished, accessible, and production-ready web interfaces. With expertise in React and TypeScript, I craft complex, high-performance user interfaces that are easy to maintain. My approach blends technical excellence with a deep understanding of user needs and modern design principles. I'm dedicated to delivering intuitive, accessible experiences while staying up-to-date with the latest web technologies and design trends.",
+    subtitle: "Front-End Developer Focused on UI/UX",
+    description: "I'm a passionate front-end developer who specializes in crafting clean, accessible, and production-ready interfaces. With expertise in React and TypeScript, I develop scalable, high-performance UIs that are easy to maintain. My approach combines technical skill with a strong understanding of user needs and modern design principles. I'm committed to delivering intuitive, inclusive digital experiences while staying current with the latest tech and design trends.",
     services: {
       frontend: {
         title: "Frontend Development",
-        description: "I specialize in building modern, responsive web applications using React and TypeScript, focusing on performance, scalability, and user experience.",
+        description: "I build modern, responsive web applications using React and TypeScript, focusing on performance, scalability, and great user experience.",
       },
       design: {
         title: "UI/UX Design",
-        description: "I design intuitive, beautiful user interfaces that follow modern design principles and meet accessibility standards, ensuring a seamless user experience.",
+        description: "I design intuitive, visually appealing interfaces that follow modern design standards and accessibility best practices, ensuring a seamless experience.",
       },
       performance: {
         title: "Web Performance",
-        description: "I optimize web applications for speed and efficiency, using techniques like lazy loading and code splitting to improve loading times and user interaction.",
+        description: "I optimize web applications for speed and efficiency using techniques like lazy loading and code splitting, improving load times and user interactions.",
       },
     },
   },
@@ -53,10 +53,11 @@ export const en: TranslationType = {
 
   projects: {
     title: "My Projects",
-    description: "Here are some of my recent projects. Each one represents different challenges and solutions using various technologies.",
+    description: "Here are some of my recent projects. Each showcases unique challenges and solutions using various technologies.",
     comingSoon: "Coming Soon",
     viewMore: "View More on GitHub",
     projectCounter: "Project {{current}} of {{total}}",
+
     tags: {
       live: "Live Demo",
       code: "Code",
@@ -67,16 +68,16 @@ export const en: TranslationType = {
         description: "A memory card game where players match Pokémon cards. Includes multiple levels and game-over conditions. Built with React and responsive design for all screen sizes.",
       },
       shopping: {
-        title: "Shopping Cart WebApp",
-        description: "An e-commerce web application built with React. Users can browse products, add them to a cart, and proceed to checkout. Includes API integration and responsive design.",
+        title: "Shopping Cart Web App",
+        description: "A full e-commerce app built with React. Users can browse products, manage their cart, and complete purchases. Features API integration and responsive design.",
       },
       resume: {
         title: "Responsive Resume Website",
-        description: "A personalized resume website designed to present a professional profile, education, work experience, and skills. Built with HTML, CSS, and JavaScript, featuring light and dark themes.",
+        description: "A personal resume website showcasing education, experience, and skills. Built with HTML, CSS, and JavaScript, featuring light and dark mode themes.",
       },
       military: {
         title: "Military Equipment Shop",
-        description: "An e-commerce web application built with React. Users can browse products, add them to a cart, and proceed to checkout. Includes API integration and responsive design.",
+        description: "An e-commerce web app built with React. Users can explore products, manage their cart, and place orders. Includes API integration and a responsive layout.",
       },
     },
   },
@@ -89,56 +90,56 @@ export const en: TranslationType = {
         name: "Yassine Benjelloun",
         role: "Product Manager",
         company: "Softech Solutions",
-        content: "Collaborating with this developer was an incredible experience. Their expertise in creating user-friendly and high-performance web apps is remarkable. They paid attention to every detail and always adapted to our feedback, delivering top-notch results.",
+        content: "Working with this developer was an outstanding experience. Their skill in building intuitive, high-performance web apps is exceptional. They're attentive to detail and responsive to feedback, always delivering top-quality work.",
       },
       clara: {
         name: "Clara Dupont",
         role: "Lead Developer",
         company: "TechWave",
-        content: "This developer combines technical mastery with a real passion for design. Their contributions to our e-commerce platform have greatly improved both our development workflow and the overall user experience. Always reliable and innovative!",
+        content: "This developer blends technical expertise with a passion for design. Their contributions significantly improved both our workflow and user experience. Always dependable and forward-thinking!",
       },
       marco: {
         name: "Marco Rossi",
         role: "UX/UI Designer",
         company: "Pixelate Studios",
-        content: "I've worked with many developers, but this one stands out. Their ability to take complex design concepts and turn them into flawless code is exceptional. The result was a seamless, responsive design that performed excellently across all devices.",
+        content: "I've worked with many developers, but this one stands out. They turn complex design ideas into flawless code, resulting in responsive, consistent designs across all devices.",
       },
     },
   },
 
   contact: {
-    title: "Get In Touch",
-    description: "Have a project in mind or just want to say hello? I'd love to hear from you. Feel free to reach out using the form below.",
+    title: "Get in Touch",
+    description: "Have a project in mind or just want to connect? Feel free to reach out using the form below.",
     info: {
       title: "Contact Info",
-      email: {
-        label: "Email"
-      },
-      phone: {
-        label: "Phone"
-      },
-      social: {
-        label: "Social"
-      }
+      email: { label: "Email" },
+      phone: { label: "Phone" },
+      social: { label: "Social" },
     },
     availability: {
       title: "Current Availability",
-      description: "I'm currently available for freelance work and open to new opportunities. My usual response time is within 24 hours.",
+      description: "I'm currently available for freelance work and open to new opportunities. I typically respond within 24 hours.",
     },
     form: {
-      name: "Your Name",
+      name: "Name",
       namePlaceholder: "Full name",
-      email: "Your Email",
+      email: "Email",
       emailPlaceholder: "email@example.com",
       message: "Message",
       messagePlaceholder: "Tell me about your project...",
       send: "Send Message",
       sending: "Sending...",
     },
-    messages: {
-      success: "Message sent! Thank you for reaching out. I'll get back to you soon.",
-      error: "There was an error sending your message. Please try again later.",
-      autoReplyError: "There was an error sending the auto-reply. Please try again later.",
+    toast: {
+      success: {
+        title: "Message Sent!",
+        description: "Thanks for reaching out. I'll get back to you shortly.",
+      },
+      error: {
+        title: "Error",
+        description: "Something went wrong while sending your message. Please try again later.",
+        autoReply: "There was an issue sending the auto-reply. Please try again later.",
+      },
     },
   },
 
@@ -146,4 +147,4 @@ export const en: TranslationType = {
     tagline: "Creating digital experiences that inspire.",
     copyright: "© {{year}} Mohamed B. — MIT Licensed",
   },
-}; 
+};
