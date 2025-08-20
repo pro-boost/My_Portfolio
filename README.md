@@ -1,8 +1,8 @@
-# ✨ Glow Folio Darklight Magic
+# ✨ My Portfolio
 
 ## 📘 Project Overview
 
-**Glow Folio Darklight Magic** is my personal, private portfolio showcasing my projects and skills.  
+**My Portfolio** is my personal, private portfolio showcasing my projects and skills.  
 It is **not intended for public use, reuse, or distribution**.
 
 This project demonstrates my expertise in building responsive, dark/light theme-enabled web applications using modern frontend technologies.
@@ -18,7 +18,7 @@ This project demonstrates my expertise in building responsive, dark/light theme-
 ## 🧱 Project Structure
 
 ```
-glow-folio-darklight-magic/
+My_Portfolio/
 ├── public/                 # Static assets
 ├── src/                    # Source code
 │   ├── components/         # Reusable UI components
